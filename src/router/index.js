@@ -11,9 +11,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Index.vue'),
     children: [
       {
-        path: '/index',
-        name: 'Index',
-        component: () => import(/* webpackChunkName: "about" */ '../views/Index.vue'),
+        path: '',
+        name: 'home',
+        component: () => import(/* webpackChunkName: "about" */ '../views/Home.vue'),
       },
       {
         path: '/about',
